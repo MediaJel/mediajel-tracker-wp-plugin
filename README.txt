@@ -54,7 +54,6 @@ You should select or tick this option if your website is in development mode or 
 = After having installed the plugin, and added the details (for example the APP ID), what do we need to do to ensure that the plugin is working on our site? =
 There\'s nothing that you have to do on your end, but to inform us that you have already successfully installed the plugin, and has added the necessary details. Then we will check on our end, if the plugin is actually already working on your website.
 
-
 == Screenshots ==
 1. The MediaJel Tracker menu being added on the WP Dashboard menu after plugin is activated
 2. The Universal Tracker settings section
