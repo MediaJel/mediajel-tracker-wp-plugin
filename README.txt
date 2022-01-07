@@ -1,5 +1,5 @@
 === MediaJel Tracker ===
-Contributors: jpbaroma
+Contributors: jonathanbaroma
 Tags: mediajel, universal tracker, mvp, header script, jpbaroma
 Donate link: https://www.mediajel.com/contact-us
 Requires at least: 5.0
