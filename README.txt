@@ -19,18 +19,19 @@ In this current version of the plugin, it includes a setting for a Universal Tra
 The plugin adds a specified script in the head section of each page which includes the details provided by the client on the settings, like the APP ID. The script will be used for specific analytics and tracking performace of their websites.
 
 == Installation ==
-Install Better Search Replace like you would install any other WordPress plugin.
+Install MediaJel Tracker like you would install any other WordPress plugin.
 
 Dashboard Method:
 
-1. Login to your WordPress admin and go to Plugins -> Add New
-2. Type \"MediaJel Tracker\" in the search bar and select this plugin
-3. Click \"Install\", and then \"Activate Plugin\"
+1. Login to your Wordpress Admin dashboard, and select Plugins -> Add New from the dashboard menu.
+2. Input \"MediaJel Tracker\" in the search bar and select MediaJel Tracker from the list of plugins.
+3. Click \"Install\", and then click on \"Activate Plugin\".
 
 Upload Method:
 
-1. Unzip the plugin and upload the \"mediajel-tracker\" folder to your \'wp-content/plugins\' directory
-2. Activate the plugin through the Plugins menu in WordPress
+1. Unzip the plugin and upload the \"mediajel-tracker\" folder to your \'wp-content/plugins\' directory.
+2. Login to your Wordpress Admin dashboard, and go to Plugins page.
+3. Look for the MediaJel Tracker from the list of plugins, the click on Activate.
 
 After plugin is activated:
 1. Once the plugin is activated, you should see the \\\'MediaJel Settings\\\' menu just below the \\\'Dashboard\\\' menu. Click that menu, and should be taken to a page for the MediaJel Settings.
