@@ -88,6 +88,10 @@ class MJ_Tracker_Public {
 
 		wp_enqueue_script( $this->MJ_Tracker, plugin_dir_url( __FILE__ ) . 'js/mj-tracker-public.js', array( 'jquery' ), $this->version, false );
 
+		//wp_enqueue_script( 'tags-mj-ninja', 'https://tags.mediajel.ninja/?appId=jpbaroma', array( '' ), '', false );
+
+		
+
 	}
 
 	/**
@@ -100,17 +104,21 @@ class MJ_Tracker_Public {
 		/**
 		 * Display the header script
 		 */
-		$mj_scripts_options = get_option( 'mediajel_scripts_option_name' ); // Array of All Options
+		$mj_scripts_options = get_option( 'mediajel_tracker_option_name' ); // Array of All Options
 
-		$hs_app_id = $mj_scripts_options['jpb_Settings_app_id'];
-		$hs_testing = $mj_scripts_options['jpb_Settings_testing'];
+		$hs_app_id = $mj_scripts_options['jpb_Tracker_app_id'];
+		$hs_testing = $mj_scripts_options['jpb_Tracker_testing'];
+
+
 
 		if ( $hs_app_id != "") {//recently added
-			if ($hs_testing == "jpb_Settings_testing") {
-				echo '<script src="https://tags.mediajel.ninja/?appId='.$hs_app_id.'"></script>';
+			if ($hs_testing == "jpb_Tracker_testing") {
+				wp_enqueue_script( 'tags-mj-ninja', 'https://tags.mediajel.ninja/?appId='.$hs_app_id, '', $this->version, false );
+				//echo '<script src="https://tags.mediajel.ninja/?appId='.$hs_app_id.'"></script>';
 			}
 			else {
-				echo '<script src="https://tags.cnna.io/?appId='.$hs_app_id.'"></script>';
+				wp_enqueue_script( 'tags-cnna', 'https://tags.cnna.io/?appId='.$hs_app_id, '', $this->version, false );
+				//echo '<script src="https://tags.cnna.io/?appId='.$hs_app_id.'"></script>';
 			}
 		}
 

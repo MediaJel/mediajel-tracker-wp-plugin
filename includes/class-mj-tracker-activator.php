@@ -7,7 +7,7 @@
  *
  * @since      1.1.2
  * @package    MediaJel Tracker
- * @subpackage mj-tracker/includes
+ * @subpackage mediajel-tracker/includes
  * @author     JP Baroma <jonathanbaroma@mediajel.com>
  */
 class MJ_Tracker_Activator {

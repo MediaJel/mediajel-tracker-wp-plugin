@@ -5,11 +5,11 @@
  *
  * This file is used to markup the admin-facing aspects of the plugin.
  *
- * @link       http://example.com
- * @since      1.0.0
+ * @link       http://www.mediajel.com
+ * @since      1.1.2
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/admin/partials
+ * @package    MediaJel Tracker
+ * @subpackage mediajel-tracker/admin/partials
  */
 ?>
 

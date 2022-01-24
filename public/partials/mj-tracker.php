@@ -8,8 +8,8 @@
  * @link       https://www.mediajel.com
  * @since      1.1.2
  *
- * @package    MJ Tracker
- * @subpackage MJ_Tracker/public/partials
+ * @package    MediaJel Tracker
+ * @subpackage mediajel-tracker/public/partials
  */
 ?>
 
