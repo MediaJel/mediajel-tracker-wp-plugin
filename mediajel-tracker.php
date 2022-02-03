@@ -4,10 +4,10 @@
  * @package          MediaJel Tracker
  *
  * Plugin Name:       MediaJel Tracker
- * Plugin URI:        https://wordpress.org
+ * Plugin URI:        https://wordpress.org/plugins/mediajel-tracker
  * Description:       Custom settings page for MediaJel tracker
  * Version:           1.1.2
- * Author:            JP Baroma
+ * Author:            MediaJel
  * Author URI:        https://www.mediajel.com
  * License:           GPLv2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
