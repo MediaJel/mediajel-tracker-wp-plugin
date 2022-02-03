@@ -34,7 +34,7 @@ Upload Method:
 3. Look for the MediaJel Tracker from the list of plugins, the click on Activate.
 
 After plugin is activated:
-1. Once the plugin is activated, you should see the \\\'MediaJel Settings\\\' menu just below the \\\'Dashboard\\\' menu. Click that menu, and should be taken to a page for the MediaJel Settings.
+1. Once the plugin is activated, you should see the \\\'MediaJel Tracker\\\' menu just below the \\\'Dashboard\\\' menu. Click that menu, and should be taken to a page for the MediaJel tracker.
 2. Under the Universal Tracker (MVP) section, input the APP ID that will be provided to you by MediaJel. Then also tick the option if your site is on testing mode, if not, then just leave it unselected.
 3. Click on \\\'Save Changes\\\' button, and you\\\'re all set.
 
@@ -67,7 +67,7 @@ There\'s nothing that you have to do on your end, but to inform us that you have
 = 1.1.1 =
 *Release Date - 06 March 2022*
 
-*Changed the name of the plugin to MediaJel Settings
+*Changed the name of the plugin to MediaJel Tracker
 
 = 1.1.0 =
 *Release Date - 17 November 2021*
