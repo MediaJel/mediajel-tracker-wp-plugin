@@ -171,6 +171,14 @@ class MJ_Tracker_Admin {
 		);
 
 		add_settings_field(
+			'jpb_Tracker_cart', // id
+			'Cart', // title
+			array( $this, 'jpb_Tracker_cart_callback' ), // callback
+			'mediajel-tracker-admin', // page
+			'Tracker_setting_section' // section
+		);
+
+		add_settings_field(
 			'jpb_Tracker_testing', // id
 			'Testing', // title
 			array( $this, 'jpb_Tracker_testing_callback' ), // callback
@@ -185,6 +193,10 @@ class MJ_Tracker_Admin {
 		$sanitary_values = array();
 		if ( isset( $input['jpb_Tracker_app_id'] ) ) {
 			$sanitary_values['jpb_Tracker_app_id'] = sanitize_text_field( $input['jpb_Tracker_app_id'] );
+		}
+
+		if ( isset( $input['jpb_Tracker_cart'] ) ) {
+			$sanitary_values['jpb_Tracker_cart'] =  $input['jpb_Tracker_cart'];
 		}
 
 		if ( isset( $input['jpb_Tracker_testing'] ) ) {
@@ -203,6 +215,57 @@ class MJ_Tracker_Admin {
 			'<input class="regular-text" type="text" name="mediajel_tracker_option_name[jpb_Tracker_app_id]" id="jpb_Tracker_app_id" value="%s">',
 			isset( $this->mediajel_tracker_options['jpb_Tracker_app_id'] ) ? esc_attr( $this->mediajel_tracker_options['jpb_Tracker_app_id']) : ''
 		);
+	}
+
+	public function jpb_Tracker_cart_callback() {
+		//$cart = $this->mediajel_tracker_options["jpb_Tracker_cart"];
+
+		$selected_1 = isset( $this->mediajel_tracker_options["jpb_Tracker_cart"] ) && $this->mediajel_tracker_options["jpb_Tracker_cart"] == "jane" ? "selected" : "" ;
+		
+		$selected_2 = isset( $this->mediajel_tracker_options["jpb_Tracker_cart"] ) && $this->mediajel_tracker_options["jpb_Tracker_cart"] == "dutchie-subdomain" ? "selected" : ""  ;
+		
+		$selected_3 = isset( $this->mediajel_tracker_options["jpb_Tracker_cart"] ) && $this->mediajel_tracker_options["jpb_Tracker_cart"] == "dutchie-iframe" ? "selected" : "" ;
+		
+		$selected_4 = isset( $this->mediajel_tracker_options["jpb_Tracker_cart"] ) && $this->mediajel_tracker_options["jpb_Tracker_cart"] == "meadow" ? "selected" : "" ;
+		
+		$selected_5 = isset( $this->mediajel_tracker_options["jpb_Tracker_cart"] ) && $this->mediajel_tracker_options["jpb_Tracker_cart"] == "tymber" ? "selected" : "" ;
+		
+		$selected_6 = isset( $this->mediajel_tracker_options["jpb_Tracker_cart"] ) && $this->mediajel_tracker_options["jpb_Tracker_cart"] == "woocommerce" ? "selected" : "" 	;
+		
+		$selected_7 = isset( $this->mediajel_tracker_options["jpb_Tracker_cart"] ) && $this->mediajel_tracker_options["jpb_Tracker_cart"] == "greenrush" ? "selected" : "" ;
+		
+		$selected_8 = isset( $this->mediajel_tracker_options["jpb_Tracker_cart"] ) && $this->mediajel_tracker_options["jpb_Tracker_cart"] == "buddi" ? "selected" : "";
+
+		$selected_9 = isset( $this->mediajel_tracker_options["jpb_Tracker_cart"] ) && $this->mediajel_tracker_options["jpb_Tracker_cart"] == "shopify" ? "selected" : "" 	;
+		
+		$selected_10 = isset( $this->mediajel_tracker_options["jpb_Tracker_cart"] ) && $this->mediajel_tracker_options["jpb_Tracker_cart"] == "lightspeed" ? "selected" : "" ;
+		
+		$selected_11 = isset( $this->mediajel_tracker_options["jpb_Tracker_cart"] ) && $this->mediajel_tracker_options["jpb_Tracker_cart"] == "olla" ? "selected" : "";
+
+		//echo 'sel_1:'. $selected_1 . '<br />sel_6:' . $selected_6;
+
+		//echo $this->mediajel_tracker_options["jpb_Tracker_cart"];
+		
+		
+
+		echo '<select name="mediajel_tracker_option_name[jpb_Tracker_cart]" id="jpb_Tracker_cart">
+		<option value="jane" '. $selected_1 .'>jane</option>
+		<option value="dutchie-subdomain" '. $selected_2 .'>dutchie-subdomain</option>
+		<option value="dutchie-iframe" '. $selected_3 .'>dutchie-iframe</option>
+		<option value="meadow" '. $selected_4 .'>meadow</option>
+		<option value="tymber" '. $selected_5 .'>tymber</option>
+		<option value="woocommerce" '. $selected_6 .'>woocommerce</option>
+		<option value="greenrush" '. $selected_7 .'>greenrush</option>
+		<option value="buddi" '. $selected_8 .'>buddi</option>
+		<option value="shopify" '. $selected_9 .'>shopify</option>
+		<option value="lightspeed" '. $selected_10 .'>lightspeed</option>
+		<option value="olla" '. $selected_11 .'>olla</option></select>';
+				
+		
+		
+
+		//return $sel_output;
+			
 	}
 
 	public function jpb_Tracker_testing_callback() {
