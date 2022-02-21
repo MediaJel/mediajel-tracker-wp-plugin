@@ -220,6 +220,8 @@ class MJ_Tracker_Admin {
 	public function jpb_Tracker_cart_callback() {
 		//$cart = $this->mediajel_tracker_options["jpb_Tracker_cart"];
 
+		$selected_1 = isset( $this->mediajel_tracker_options["jpb_Tracker_cart"] ) && $this->mediajel_tracker_options["jpb_Tracker_cart"] == "none" ? "selected" : "" ;
+
 		$selected_1 = isset( $this->mediajel_tracker_options["jpb_Tracker_cart"] ) && $this->mediajel_tracker_options["jpb_Tracker_cart"] == "jane" ? "selected" : "" ;
 		
 		$selected_2 = isset( $this->mediajel_tracker_options["jpb_Tracker_cart"] ) && $this->mediajel_tracker_options["jpb_Tracker_cart"] == "dutchie-subdomain" ? "selected" : ""  ;
@@ -249,6 +251,7 @@ class MJ_Tracker_Admin {
 		
 
 		echo '<select name="mediajel_tracker_option_name[jpb_Tracker_cart]" id="jpb_Tracker_cart">
+		<option value="none" '. $selected_0 .'>none</option>
 		<option value="jane" '. $selected_1 .'>jane</option>
 		<option value="dutchie-subdomain" '. $selected_2 .'>dutchie-subdomain</option>
 		<option value="dutchie-iframe" '. $selected_3 .'>dutchie-iframe</option>
