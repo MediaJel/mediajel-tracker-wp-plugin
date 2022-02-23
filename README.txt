@@ -5,7 +5,7 @@ Donate link: https://www.mediajel.com/contact-us
 Requires at least: 5.0
 Tested up to: 5.8
 Requires PHP: 7.0
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,13 +59,18 @@ There\'s nothing that you have to do on your end, but to inform us that you have
 2. The Universal Tracker settings section
 
 == Changelog ==
+= 1.1.3 =
+*Release Date - 22 Feb 2022*
+
+*Added the cart dropdown as an addional option to choose
+
 = 1.1.2 =
-*Release Date - 06 March 2022*
+*Release Date - 06 January 2022*
 
 *The name of the plugin has been changed to MediaJel Tracker, and all references to files and code has also been updated.to use mediajel-tracker.
 
 = 1.1.1 =
-*Release Date - 06 March 2022*
+*Release Date - 06 January 2022*
 
 *Changed the name of the plugin to MediaJel Tracker
 

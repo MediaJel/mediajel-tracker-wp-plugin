@@ -15,7 +15,7 @@ class MJ_Tracker_Public {
 	/**
 	 * The ID of this plugin.
 	 *
-	 * @since    1.1.2
+	 * @since    1.1.3
 	 * @access   private
 	 * @var      string    $MJ_Tracker    The ID of this plugin.
 	 */
@@ -24,7 +24,7 @@ class MJ_Tracker_Public {
 	/**
 	 * The version of this plugin.
 	 *
-	 * @since    1.1.2
+	 * @since    1.1.3
 	 * @access   private
 	 * @var      string    $version    The current version of this plugin.
 	 */
@@ -33,7 +33,7 @@ class MJ_Tracker_Public {
 	/**
 	 * Initialize the class and set its properties.
 	 *
-	 * @since    1.1.2
+	 * @since    1.1.3
 	 * @param      string    $MJ_Tracker       The name of the plugin.
 	 * @param      string    $version    The version of this plugin.
 	 */
@@ -47,7 +47,7 @@ class MJ_Tracker_Public {
 	/**
 	 * Register the stylesheets for the public-facing side of the site.
 	 *
-	 * @since    1.1.2
+	 * @since    1.1.3
 	 */
 	public function enqueue_styles() {
 
@@ -70,7 +70,7 @@ class MJ_Tracker_Public {
 	/**
 	 * Register the JavaScript for the public-facing side of the site.
 	 *
-	 * @since    1.1.2
+	 * @since    1.1.3
 	 */
 	public function enqueue_scripts() {
 
@@ -97,7 +97,7 @@ class MJ_Tracker_Public {
 	/**
 	 * Add the script on the header.
 	 *
-	 * @since    1.1.2
+	 * @since    1.1.3
 	 */
 	public function jpb_display_Settings() {
 

@@ -6,7 +6,7 @@
  * Plugin Name:       MediaJel Tracker
  * Plugin URI:        https://wordpress.org/plugins/mediajel-tracker
  * Description:       Custom settings page for MediaJel tracker
- * Version:           1.1.2
+ * Version:           1.1.3
  * Author:            MediaJel
  * Author URI:        https://www.mediajel.com
  * License:           GPLv2 or later
@@ -24,7 +24,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Currently plugin version.
  * 
  */
-define( 'MJ_Tracker_VERSION', '1.1.2' );
+define( 'MJ_Tracker_VERSION', '1.1.3' );
 
 /**
  * The code that runs during plugin activation.
@@ -60,7 +60,7 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-mj-tracker.php';
  * then kicking off the plugin from this point in the file does
  * not affect the page life cycle.
  *
- * @since    1.1.2
+ * @since    1.1.3
  */
 function run_mj_tracker() {
 

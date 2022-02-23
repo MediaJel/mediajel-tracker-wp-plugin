@@ -7,7 +7,7 @@
  * so that it is ready for translation.
  *
  * @link       https://www.mediajel.com
- * @since      1.1.2
+ * @since      1.1.3
  *
  * @package    MJ_Settings
  * @subpackage MJ_Settings/includes
@@ -19,7 +19,7 @@
  * Loads and defines the internationalization files for this plugin
  * so that it is ready for translation.
  *
- * @since      1.1.2
+ * @since      1.1.3
  * @package    MediaJel Tracker
  * @subpackage mediajel-tracker/includes
  * @author     JP Baroma <jonathanbaroma@mediajel.com>
@@ -30,7 +30,7 @@ class MJ_Tracker_i18n {
 	/**
 	 * Load the plugin text domain for translation.
 	 *
-	 * @since    1.1.2
+	 * @since    1.1.3
 	 */
 	public function load_plugin_textdomain() {
 

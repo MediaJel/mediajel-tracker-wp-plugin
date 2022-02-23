@@ -15,7 +15,7 @@ class MJ_Tracker_Admin {
 	/**
 	 * The ID of this plugin.
 	 *
-	 * @since    1.1.2
+	 * @since    1.1.3
 	 * @access   private
 	 * @var      string    $MJ_Tracker    The ID of this plugin.
 	 */
@@ -24,7 +24,7 @@ class MJ_Tracker_Admin {
 	/**
 	 * The version of this plugin.
 	 *
-	 * @since    1.1.2
+	 * @since    1.1.3
 	 * @access   private
 	 * @var      string    $version    The current version of this plugin.
 	 */
@@ -33,7 +33,7 @@ class MJ_Tracker_Admin {
 	/**
 	 * All options for the MediaJel scripts.
 	 *
-	 * @since    1.1.2
+	 * @since    1.1.3
 	 * @access   private
 	 * @var      array    $mediajel_tracker_options    An array of options for the MediaJel Scripts.
 	 */
@@ -42,7 +42,7 @@ class MJ_Tracker_Admin {
 	/**
 	 * Initialize the class and set its properties.
 	 *
-	 * @since    1.1.2
+	 * @since    1.1.3
 	 * @param      string    $MJ_Tracker       The name of this plugin.
 	 * @param      string    $version    The version of this plugin.
 	 */
@@ -56,7 +56,7 @@ class MJ_Tracker_Admin {
 	/**
 	 * Register the stylesheets for the admin area.
 	 *
-	 * @since    1.1.2
+	 * @since    1.1.3
 	 */
 	public function enqueue_styles() {
 
@@ -79,7 +79,7 @@ class MJ_Tracker_Admin {
 	/**
 	 * Register the JavaScript for the admin area.
 	 *
-	 * @since    1.1.2
+	 * @since    1.1.3
 	 */
 	public function enqueue_scripts() {
 
@@ -102,7 +102,7 @@ class MJ_Tracker_Admin {
 	/**
 	 * Add the MediaJel Tracker page
 	 *
-	 * @since    1.1.2
+	 * @since    1.1.3
 	 */
 
 	
@@ -142,7 +142,7 @@ class MJ_Tracker_Admin {
 	/**
 	 * Add the setting sections and fields
 	 *
-	 * @since    1.1.2
+	 * @since    1.1.3
 	 */
 
 	
@@ -164,7 +164,7 @@ class MJ_Tracker_Admin {
 
 		add_settings_field(
 			'jpb_Tracker_app_id', // id
-			'APP ID', // title
+			'App ID', // title
 			array( $this, 'jpb_Tracker_app_id_callback' ), // callback
 			'mediajel-tracker-admin', // page
 			'Tracker_setting_section' // section

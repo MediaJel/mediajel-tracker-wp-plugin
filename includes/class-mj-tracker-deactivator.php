@@ -5,7 +5,7 @@
  *
  * This class defines all code necessary to run during the plugin's deactivation.
  *
- * @since      1.1.2
+ * @since      1.1.3
  *
  * @package    MediaJel Tracker
  * @subpackage mediajel-tracker/includes
@@ -18,7 +18,7 @@ class MJ_Tracker_Deactivator {
 	 *
 	 * Long Description.
 	 *
-	 * @since    1.1.2
+	 * @since    1.1.3
 	 */
 	public static function deactivate() {
 

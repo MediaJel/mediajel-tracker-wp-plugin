@@ -6,7 +6,7 @@
  * This file is used to markup the admin-facing aspects of the plugin.
  *
  * @link       http://www.mediajel.com
- * @since      1.1.2
+ * @since      1.1.3
  *
  * @package    MediaJel Tracker
  * @subpackage mediajel-tracker/admin/partials
