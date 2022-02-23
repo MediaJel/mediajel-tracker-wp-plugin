@@ -20,7 +20,7 @@
  * https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate/pull/123#issuecomment-28541913
  *
  * @link       http://www.mediajel.com
- * @since      1.1.2
+ * @since      1.1.3
  *
  * @package    MediaJel Tracker
  */
